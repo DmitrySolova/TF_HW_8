@@ -10,7 +10,7 @@ public class Main {
 
         Scanner in = new Scanner(System.in);
         System.out.println("Введите число для проверки: ");
-        long n = in.nextInt();
+        long n = in.nextLong();
         in.close();
 
         //        Деление на 15 без остатка
